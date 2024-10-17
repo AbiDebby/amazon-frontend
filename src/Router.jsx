@@ -14,7 +14,8 @@ import Results from "./Pages/Results/Results";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
-import ProtectedRoute from "./Components/protectedRoute/protectedRoute";
+// import ProtectedRoute from "./Components/protectedRoute/protectedRoute";
+import ProtectedRoute from "./Components/protectedRoute/ProtectedRoute";
 
 function Routing() {
   const stripePromise = loadStripe(
